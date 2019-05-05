@@ -13,7 +13,7 @@ import com.prai.tavisca.assignment.lFinder.service.LocationFinderService;
 
 
 @RestController
-@RequestMapping(path = "/api/v1/locatoins/explore")
+@RequestMapping(path = "/api/v1/locations/explore")
 public class LocationFinderResource {
 	
 	@Autowired

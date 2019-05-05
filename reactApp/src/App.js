@@ -21,7 +21,7 @@ class App extends Component {
 
   getVenues = () => {
    
-    const endPoint = "http://localhost:8080/api/v1/locatoins/explore/?query=food&near=Sydney&limit=10";
+    const endPoint = "http://localhost:8080/api/v1/locations/explore/?query=food&near=Sydney&limit=10";
 
     const AuthStr = 'Basic dXNlcjphZG1pbg=='; 
 
